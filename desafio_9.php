@@ -28,7 +28,7 @@
     elseif ($escolha == 3) {
         $latas = round($litros/18);
         $galoes = ceil($litros%3.6);
-        $preco = ($latas*80 + $galoes*25)*0.10;
+        $preco = ($latas*80 + $galoes*25);
         
         print "São $latas latas de 18 litros, $galoes galões de 3,6 litros e R$$preco reais \n";
     }
